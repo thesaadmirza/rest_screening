@@ -1,10 +1,10 @@
 from django.urls import reverse
 from rest_framework import status
-from rest_framework.test import APITestCase
+from django.test import TestCase
 from products.models import Product
 
 
-class AccountTests(APITestCase):
+class AccountTests(TestCase):
     url = reverse('products-list')
 
     def test_create_product(self):
