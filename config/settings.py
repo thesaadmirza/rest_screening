@@ -27,6 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#Disable Django Admin
+ADMIN_ENABLED = False
 
 # Application definition
 
