@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Prodcut(models.Model):
+class Product(models.Model):
     """
     Product Model with following attributes
     """
